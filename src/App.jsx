@@ -170,7 +170,7 @@ function App() {
       placeSelf:'center', 
      marginLeft:'20vw', 
       fontWeight:100, 
-      fontSize:'1.5em'}}>At 'Gym Name', we’re always expanding our amenities 
+      fontSize:'1.5em'}}>At Jemo Gym, we’re always expanding our amenities 
         to meet the needs of our community. 
         Something you’d like to see added to our list? Submit a request.</motion.h4>
     <motion.h1 style={{fontSize:'3em',fontWeight:100, textAlign:'center', marginTop:'7vh',color:"#ffff4c"}}>Maximize your fitness journey</motion.h1>
