@@ -65,7 +65,10 @@ function App() {
 </g>
 <g>
  <g>
-   <polygon points="348.368,154.368 193.904,322.944 130.128,259.088 118.816,270.4 194.4,346.064 360.144,165.168 		"/>
+   <polygon points="348.368,154.368 193.904,
+                    322.944 130.128,259.088
+                     118.816,270.4 194.4,346.064
+                      360.144,165.168 		"/>
  </g>
 </g>
 </svg>
@@ -108,7 +111,9 @@ function App() {
       <motion.a
       href="tel:+2519"
       whileHover={{scale:1.1, color:"#ffff4c"}}
-      transition={{duration:0.2}}
+      transition={{duration:1}}
+      initial={{scale:0}}
+      animate={{scale:1}}
       style={{textDecoration:'none', 
               color:'inherit', 
               padding:15, 
@@ -132,20 +137,27 @@ function App() {
     helping you achieve your fitness goals. Discover all of our club’s offerings below. ' />
     <motion.div style={{marginLeft:'15vw', display:'flex', marginTop:'10em'}} >
       <motion.img 
+      initial={{position:'relative',top:100,opacity:1, right:50}} 
+      whileInView={{position:'relative', top:'0vw',opacity:1, right:0}}
+      transition={{duration:1}}
       
       style={{width:'30vw', minWidth:150}} 
       src={pic1}></motion.img>
       <motion.img 
+      initial={{position:'relative',top:-100,opacity:1, right:-50}} 
+      whileInView={{position:'relative', top:'-5vh',opacity:1,right:0}}
+      transition={{duration:1}}
+
 
       style={{width:'30vw',
         minWidth:150, 
         position:'relative', 
-        top:'-5vw', 
+        top:'-5vh', 
         left:'-3vw', 
         height:'fit'
-      }} 
+      }}      
       
-      transition={{delay:1}}
+      
   
       src={pic2}></motion.img>
       
@@ -254,7 +266,8 @@ function App() {
       <Stuff sorce={P} name='Name' role='Role' />
     </motion.div>
     <motion.h3  
-    whileHover={{scale:1.1, color:"#ffff4c",}}
+    whileHover={{scale:1.1, 
+                color:"#ffff4c",}}
     transition={{duration:0.2}}
     
     
@@ -262,7 +275,6 @@ function App() {
               color:'inherit',
               padding:15,
               width:'150px', 
-             
               paddingLeft:3, 
               paddingRight:3, 
               border:'2px solid white', 

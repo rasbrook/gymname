@@ -18,7 +18,7 @@ function Head(){
 
     return(<div className="head" style={{zIndex:100}}>
         <div className='comp'>
-            <h1 style={{marginLeft:"2vw"}}>gym name </h1>
+            <h1 style={{marginLeft:"2vw"}}>Jemo Gym</h1>
         </div>
         <div id='links' >
             <div style={{display:'flex', alignItems:'center'}}>
