@@ -103,10 +103,22 @@ function Head(){
 
 
         <div id='social' >
+        
+        <a
+        style={{alignSelf:'center', placeSelf:'center', placeContent:'center', alignItems:'center'}}
+        
+        target="_blank"
+        href="https://www.instagram.com/jemo_gym/">
         <motion.svg
+        
         whileHover={{scale:1.1, color:"#ffff4c", fill:"#ffff4c", cursor:'pointer'}}
         transition={{duration:0.2}}  
-        fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+        
+        fill="#fff" 
+        version="1.1" 
+        id="Layer_1" 
+        xmlns="http://www.w3.org/2000/svg" 
+        xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 width="1.2em" height="1.2em" viewBox="0 0 169.063 169.063"
 	 xmlSpace="preserve">
 <g>
@@ -122,8 +134,10 @@ function Head(){
 		C135.661,29.421,132.821,28.251,129.921,28.251z"/>
 </g>
 </motion.svg>
+        </a>
 
 
+<a style={{marginLeft:30, marginRight:30}}>
 <motion.svg 
  whileHover={{scale:1.1, color:"#ffff4c", fill:"#ffff4c"}}
  transition={{duration:0.2}}  
@@ -142,6 +156,8 @@ transition={{duration:0.2}}
        12.876L3.0633 11.0816ZM8.17695 14.4791L8.78333 16.6015L9.01614 15.321C9.05253 15.1209 9.14908
         14.9366 9.29291 14.7928L11.5128 12.573L8.17695 14.4791Z" fill="#fff"/>
 </motion.svg>
+</a>
+
 
         </div>
 

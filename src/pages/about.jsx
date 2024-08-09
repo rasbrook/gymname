@@ -18,12 +18,23 @@ import b13 from '../assets/b13.jpg'
 import b14 from '../assets/b14.jpg'
 import b15 from '../assets/b15.jpg'
 import b16 from '../assets/b16.jpg'
+import b18 from '../assets/b17.jpg'
+import b19 from '../assets/b18.jpg'
+import b20 from '../assets/b19.jpg'
+import b21 from '../assets/b20.jpg'
+import b22 from '../assets/b21.jpg'
+import b23 from '../assets/b22.jpg'
+import b24 from '../assets/b23.jpg'
+import b25 from '../assets/b24.jpg'
+import b26 from '../assets/b25.jpg'
+
+
 import { useState } from "react"
 import {motion} from 'framer-motion'
 
 
 function About(){
-    const l=[b1,b2,b3,b4,b5,b6,b6,b7,b8,b9,b10, b11,b12,b13,b14,b15,b16]
+    const l=[b1,b2,b3,b4,b5,b6,b6,b7,b8,b9,b10, b11,b12,b13,b14,b15,b16,b18,b19,b20, b21,b22,b23,b24,b25,b26]
     const [gym, setGym]=useState(l[Math.floor(Math.random() * l.length)])
 
 
@@ -47,6 +58,14 @@ function About(){
            <div style={{display:'flex', flexWrap:'wrap',alignContent:'center', placeContent:'center'}}>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b1} whileTap={()=>setGym(b1)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b2} whileTap={()=>setGym(b2)}/>
+            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b18} whileTap={()=>setGym(b18)}/>
+            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b19} whileTap={()=>setGym(b19)}/>
+            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b20} whileTap={()=>setGym(b20)}/>
+            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b21} whileTap={()=>setGym(b21)}/>
+            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b23} whileTap={()=>setGym(b23)}/>
+            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b24} whileTap={()=>setGym(b24)}/>
+            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b25} whileTap={()=>setGym(b25)}/>
+            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b26} whileTap={()=>setGym(b26)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b3} whileTap={()=>setGym(b3)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b4} whileTap={()=>setGym(b4)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b5} whileTap={()=>setGym(b5)}/>
@@ -54,13 +73,15 @@ function About(){
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b7} whileTap={()=>setGym(b7)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b8} whileTap={()=>setGym(b8)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b9} whileTap={()=>setGym(b9)}/>
-            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b10} whileTap={()=>setGym(b10)}/>
+         
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b11} whileTap={()=>setGym(b11)}/>
-            <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b12} whileTap={()=>setGym(b12)}/>
+            
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b13} whileTap={()=>setGym(b13)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b14} whileTap={()=>setGym(b14)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b15} whileTap={()=>setGym(b15)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b16} whileTap={()=>setGym(b16)}/>
+
+            
 
            </div>
             

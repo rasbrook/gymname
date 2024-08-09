@@ -1,7 +1,7 @@
 import Head from "../head"
 import Foot from "../foot"
 import Blogcontain from "./blogcontain"
-import spin from '../assets/spin.jpg'
+
 
 import muscle from '../assets/muscle.jpg'
 import sleep from '../assets/sleep.jpg'

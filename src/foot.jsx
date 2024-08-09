@@ -3,6 +3,9 @@ function Foot(){
         <div style={{backgroundColor:'#111', display:'flex', flexWrap:'wrap', justifyContent:'space-between'}}>
         <div style={{ marginLeft:'5vw'}}>
             <h1>Follow us on</h1>
+        <a 
+        target="_blank"
+        href="https://www.instagram.com/jemo_gym/">
         <svg  style={{margin:'2vw'}}
         fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 width="1.2em" height="1.2em" viewBox="0 0 169.063 169.063"
@@ -20,8 +23,11 @@ function Foot(){
 		C135.661,29.421,132.821,28.251,129.921,28.251z"/>
 </g>
 </svg>
+        </a>
 
 
+<a 
+>
 <svg 
 style={{margin:'2vw'}}
  width="1.2em" height="1.2em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,6 +41,7 @@ style={{margin:'2vw'}}
        12.876L3.0633 11.0816ZM8.17695 14.4791L8.78333 16.6015L9.01614 15.321C9.05253 15.1209 9.14908
         14.9366 9.29291 14.7928L11.5128 12.573L8.17695 14.4791Z" fill="#fff"/>
 </svg>
+</a>
         </div>
        <div style={{margin:"2vw", width:'20vw', minWidth:300, marginLeft:'5vw'}}>
        <h1>
@@ -46,10 +53,13 @@ style={{margin:'2vw'}}
        <div style={{margin:"2vw", width:'20vw', minWidth:300, marginLeft:'5vw'}}>
         <h1>Contact Us</h1>
         <h3><a 
-        href="tel: +2519"
-        style={{fontWeight:100, color:'inherit', textDecoration:'none'}}>+2519--------</a></h3>
+        target="_blank"
+        href="tel:+251 97 812 7151"
+        style={{fontWeight:100, color:'inherit', textDecoration:'none'}}>+251 97 812 7151</a></h3>
         <h3><a style={{fontWeight:100, color:'inherit', textDecoration:'none'}}>info@jemogym.com</a></h3>
-        <h3><a href="https://www.google.com.et/maps/place/Jomo+Mall+%7C+Jomo+%7C+%E1%8C%80%E1%88%9E+%E1%88%9E%E1%88%8D+%7C+%E1%8C%80%E1%88%9E/@8.9647389,38.6810875,14z/data=!4m10!1m2!2m1!1sjemo+mall!3m6!1s0x164b8164da169ea1:0xe445c7794404bb43!8m2!3d8.9647389!4d38.7191963!15sCglqZW1vIG1hbGxaCyIJamVtbyBtYWxskgEFc3RvcmWaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTXlkM05tZUZGQkVBReABAA!16s%2Fg%2F11r9v8glqq?entry=ttu"
+        <h3><a 
+        target="_blank"
+        href="https://www.google.com.et/maps/place/Jomo+Mall+%7C+Jomo+%7C+%E1%8C%80%E1%88%9E+%E1%88%9E%E1%88%8D+%7C+%E1%8C%80%E1%88%9E/@8.9647389,38.6810875,14z/data=!4m10!1m2!2m1!1sjemo+mall!3m6!1s0x164b8164da169ea1:0xe445c7794404bb43!8m2!3d8.9647389!4d38.7191963!15sCglqZW1vIG1hbGxaCyIJamVtbyBtYWxskgEFc3RvcmWaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTXlkM05tZUZGQkVBReABAA!16s%2Fg%2F11r9v8glqq?entry=ttu"
          style={{fontWeight:100, color:'inherit', textDecoration:'none'}}>Jemo, Addis Abeba</a></h3>
 
        </div>

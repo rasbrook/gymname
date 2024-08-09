@@ -1,10 +1,17 @@
 import Head from "../head"
 import Foot from "../foot"
 import {motion} from 'framer-motion'
-import b13 from '../assets/b13.jpg'
+import b10 from '../assets/gym 2.png'
+import spa from '../assets/spa.jpg'
+import spin1 from '../assets/spin.png'
+import spin2 from '../assets/spin1.jpg'
+import spin3 from '../assets/spin (2).png'
+import aerob from '../assets/aerob.jpg'
 
 
 function Schedule(){
+    const s=[spin1,spin2,spin3]
+    const spin=s[Math.floor(Math.random() * s.length)]
     return(<div>
         <Head />
         <motion.h1 style={{fontSize:'4em', fontWeight:200, textAlign:'center',color:"#ffff4c"}}>Our Schedule</motion.h1>
@@ -39,25 +46,25 @@ function Schedule(){
 
 
         <motion.div style={{width:'40vw', minWidth:350, placeContent:'center', marginTop:100}}>
-        <motion.img src={b13} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
+        <motion.img src={spin} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
         <motion.h1 style={{fontSize:'2.5em', fontWeight:100, textAlign:'center'}}>Spin Class Schedule</motion.h1>   
         </motion.div>
 
 
 
         <motion.div style={{width:'40vw', minWidth:350, marginTop:100}}>
-        <motion.img src={b13} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
+        <motion.img src={aerob} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
         <motion.h1 style={{fontSize:'2.5em', fontWeight:100, textAlign:'center'}}>Aerobics Class Schedule</motion.h1>
         </motion.div>
 
         <motion.div style={{width:'40vw', minWidth:350, marginTop:100}}>
-        <motion.img src={b13} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
+        <motion.img src={b10} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
         <motion.h1 style={{fontSize:'2.5em', fontWeight:100, textAlign:'center'}}>Open Gym Schedule</motion.h1>
         </motion.div>
 
 
         <motion.div style={{width:'40vw', minWidth:350, marginTop:100}}>
-        <motion.img src={b13} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
+        <motion.img src={spa} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
         <motion.h1 style={{fontSize:'2.5em', fontWeight:100, textAlign:'center'}}>Spa Schedule</motion.h1>
         </motion.div>
             
