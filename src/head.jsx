@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import {motion, useAnimationControls} from 'framer-motion'
+import logo from './assets/jemologo.png'
 
 
 
@@ -17,7 +18,8 @@ function Head(){
 
 
     return(<div className="head" style={{zIndex:100}}>
-        <div className='comp'>
+        <div style={{display:'flex', alignItems:'center'}} className='comp'>
+            <img style={{width:'2.5em'}} src={logo} />
             <h1 style={{marginLeft:"2vw"}}>Jemo Gym</h1>
         </div>
         <div id='links' >
@@ -261,6 +263,10 @@ xmlnsXlink="http://www.w3.org/1999/xlink">
             </h3>
             </div>
             <div style={{alignItems:'center', justifyItems:'center',alignSelf:'center'}} >
+        <a 
+        target="_blank"
+        href="https://www.instagram.com/jemo_gym/"
+        >
         <svg  
         fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 width="1.2em" height="1.2em" viewBox="0 0 169.063 169.063"
@@ -278,6 +284,7 @@ xmlnsXlink="http://www.w3.org/1999/xlink">
 		C135.661,29.421,132.821,28.251,129.921,28.251z"/>
 </g>
 </svg>
+        </a>
 
 
 <svg 

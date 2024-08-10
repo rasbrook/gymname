@@ -5,7 +5,7 @@ import person from '../assets/person.jpg'
 import spin1 from '../assets/spin.png'
 import spin2 from '../assets/spin1.jpg'
 import spin3 from '../assets/spin (2).png'
-
+import ice from '../assets/ice.jpg'
 import per1 from '../assets/per.png'
 import per2 from '../assets/per1.jpg'
 import per3 from '../assets/per2.jpg'
@@ -38,6 +38,7 @@ function Service(){
       <Classes sorce={spa} class='Spa'/>
       <Classes sorce={sauna} class='Sauna Bath'/>
       <Classes sorce={steam} class='Steam'/>
+      <Classes sorce={ice} class='Ice Bath'/>
       <Classes sorce={coffe} class='Gym Coffee'/>
     </motion.div>
 

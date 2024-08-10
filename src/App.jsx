@@ -122,7 +122,7 @@ function App() {
        {m[Math.floor(Math.random() * m.length)]}
       </motion.h1>
       <motion.a
-      href="tel:+2519"
+      href="tel:+251978127151"
       whileHover={{scale:1.1, color:"#ffff4c"}}
       transition={{duration:1}}
       initial={{scale:0}}

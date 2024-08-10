@@ -54,7 +54,7 @@ style={{margin:'2vw'}}
         <h1>Contact Us</h1>
         <h3><a 
         target="_blank"
-        href="tel:+251 97 812 7151"
+        href="tel:+251978127151"
         style={{fontWeight:100, color:'inherit', textDecoration:'none'}}>+251 97 812 7151</a></h3>
         <h3><a style={{fontWeight:100, color:'inherit', textDecoration:'none'}}>info@jemogym.com</a></h3>
         <h3><a 

@@ -73,9 +73,7 @@ function About(){
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b7} whileTap={()=>setGym(b7)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b8} whileTap={()=>setGym(b8)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b9} whileTap={()=>setGym(b9)}/>
-         
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b11} whileTap={()=>setGym(b11)}/>
-            
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b13} whileTap={()=>setGym(b13)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b14} whileTap={()=>setGym(b14)}/>
             <motion.img style={{width:'15vw', maxWidth:200, minWidth:100}} src={b15} whileTap={()=>setGym(b15)}/>
