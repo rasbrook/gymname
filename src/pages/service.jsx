@@ -39,7 +39,7 @@ function Service(){
       <Classes sorce={sauna} class='Sauna Bath'/>
       <Classes sorce={steam} class='Steam'/>
       <Classes sorce={ice} class='Ice Bath'/>
-      <Classes sorce={coffe} class='Gym Coffee'/>
+      <Classes sorce={coffe} class='Gym Cafe'/>
     </motion.div>
 
 
