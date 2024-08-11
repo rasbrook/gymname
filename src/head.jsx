@@ -114,20 +114,20 @@ function Head(){
         <motion.svg 
         whileHover={{scale:1.1, stroke:'#ffff4c', cursor:'pointer', color:'#ffff4c'}}
         transition={{duration:0.2}}
-        style={{width:'1.4em', height:'1.4em', fill:'none', marginRight:35}}
+        style={{width:'1.5em', height:'1.5em', fill:'none', marginRight:35}}
          viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
 <motion.path
 whileHover={{scale:1.1, stroke:'"#ffff4c"', cursor:'pointer'}}
 transition={{duration:0.2}} 
 style={{padding:100}}
 d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 
-3 21 5.23858 21 8Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+3 21 5.23858 21 8Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <motion.path 
 style={{padding:100}}
 whileHover={{scale:1.1, stroke:'"#ffff4c"', cursor:'pointer'}}
 transition={{duration:0.2}}
 d="M10 12C8.34315 12 7 13.3431 7 15C7 16.6569 8.34315 18 10 18C11.6569 18 13 16.6569 13 15V6C13.3333 7 
-14.6 9 17 9" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+14.6 9 17 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </motion.svg>
 
         </a> 
@@ -302,20 +302,20 @@ xmlnsXlink="http://www.w3.org/1999/xlink">
         <motion.svg 
         whileHover={{scale:1.1, stroke:'#ffff4c', cursor:'pointer', color:'#ffff4c'}}
         transition={{duration:0.2}}
-        style={{width:'1.4em', height:'1.4em', fill:'none', marginRight:35}}
+        style={{width:'1.5em', height:'1.5em', fill:'none', marginRight:35}}
          viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
 <motion.path
 whileHover={{scale:1.1, stroke:'"#ffff4c"', cursor:'pointer'}}
 transition={{duration:0.2}} 
 style={{padding:100}}
 d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 
-3 21 5.23858 21 8Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+3 21 5.23858 21 8Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <motion.path 
 style={{padding:100}}
 whileHover={{scale:1.1, stroke:'"#ffff4c"', cursor:'pointer'}}
 transition={{duration:0.2}}
 d="M10 12C8.34315 12 7 13.3431 7 15C7 16.6569 8.34315 18 10 18C11.6569 18 13 16.6569 13 15V6C13.3333 7 
-14.6 9 17 9" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+14.6 9 17 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </motion.svg>
 
         </a> 

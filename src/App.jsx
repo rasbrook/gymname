@@ -256,7 +256,7 @@ style={{textAlign:'center', fontSize:'4em', fontWeight:100,color:"#ffff4c"}}>Our
     <motion.div
     initial={{position:'relative',opacity:0}} 
     whileInView={{position:'relative',opacity:1}}
-    transition={{duration:1, delay:0.5}}  
+    transition={{duration:2, delay:0.3}}  
     style={{display:'flex', flexWrap:'wrap', gap:20,placeContent:'center'}}>
       <Classes sorce={per} class='Personal Training'/>
       <Classes sorce={spin} class='Spin Class'/>
