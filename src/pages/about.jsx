@@ -43,7 +43,7 @@ function About(){
         <Head />
         <motion.h1 style={{textAlign:'center', fontSize:'4em',fontWeight:100,color:"#ffff4c"}}>Stuff Members</motion.h1>
         <div style={{display:'flex', flexWrap:'wrap', gap:20,placeContent:'center'}}>
-            <Stuff sorce={P} name='Name' role='Role' />
+            <Stuff sorce={P} name='Betel' role='Manager' />
             <Stuff sorce={P} name='Name' role='Role' />
             <Stuff sorce={P} name='Name' role='Role' />
             <Stuff sorce={P} name='Name' role='Role' />

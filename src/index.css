@@ -83,6 +83,9 @@ body{
     .see{
         margin-left: 30vw;
     }
+    #name{
+        display:none;
+    }
     
     
 }

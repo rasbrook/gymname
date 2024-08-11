@@ -3,10 +3,34 @@ function Foot(){
         <div style={{backgroundColor:'#111', display:'flex', flexWrap:'wrap', justifyContent:'space-between'}}>
         <div style={{ marginLeft:'5vw'}}>
             <h1>Follow us on</h1>
+            <a
+        target="_blank"
+        href="https://www.tiktok.com/@jemo_gym.spa" 
+        style={{alignSelf:'center', placeSelf:'center', placeContent:'center', alignItems:'center'}}>
+        
+        <svg 
+    
+        style={{width:'1.5em', height:'1.5em', fill:'none',margin:'1em'}}
+         viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
+<path
+whileHover={{scale:1.1, stroke:'"#ffff4c"', cursor:'pointer'}}
+transition={{duration:0.2}} 
+style={{padding:100}}
+d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 
+3 21 5.23858 21 8Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path 
+style={{padding:100}}
+whileHover={{scale:1.1, stroke:'"#ffff4c"', cursor:'pointer'}}
+transition={{duration:0.2}}
+d="M10 12C8.34315 12 7 13.3431 7 15C7 16.6569 8.34315 18 10 18C11.6569 18 13 16.6569 13 15V6C13.3333 7 
+14.6 9 17 9" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+        </a> 
         <a 
         target="_blank"
         href="https://www.instagram.com/jemo_gym/">
-        <svg  style={{margin:'2vw'}}
+        <svg  style={{margin:'1em'}}
         fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 width="1.2em" height="1.2em" viewBox="0 0 169.063 169.063"
 	 xmlSpace="preserve">
@@ -27,9 +51,11 @@ function Foot(){
 
 
 <a 
+
+href='t.me' 
 >
 <svg 
-style={{margin:'2vw'}}
+style={{margin:'1em'}}
  width="1.2em" height="1.2em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fillRule="evenodd" clipRule="evenodd" d="M23.1117 4.49449C23.4296 2.94472 21.9074
  1.65683 20.4317 2.227L2.3425 9.21601C0.694517 9.85273 0.621087 12.1572 2.22518 12.8975L6.1645

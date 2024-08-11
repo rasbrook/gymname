@@ -177,7 +177,10 @@ function App() {
       
     </motion.div>
     <motion.h1 style={{textAlign:'center', fontWeight:100, marginTop:'3em',fontSize:'2.5em',color:"#ffff4c"}}>AMENITIES</motion.h1>
-      <motion.h4 
+      <motion.h4
+      initial={{position:'relative',top:200,opacity:0}} 
+      whileInView={{position:'relative', top:0,opacity:1}}
+      transition={{duration:2}} 
       style={{ 
       width:'60vw', 
       placeSelf:'center', 
@@ -186,9 +189,17 @@ function App() {
       fontSize:'1.5em'}}>At Jemo Gym, we’re always expanding our amenities 
         to meet the needs of our community. 
         Something you’d like to see added to our list? Submit a request.</motion.h4>
-    <motion.h1 style={{fontSize:'3em',fontWeight:100, textAlign:'center', marginTop:'7vh',color:"#ffff4c"}}>Maximize your fitness journey</motion.h1>
+    <motion.h1
+    initial={{position:'relative',top:200,opacity:0}} 
+    whileInView={{position:'relative', top:0,opacity:1}}
+    transition={{duration:1}} 
+    style={{fontSize:'3em',fontWeight:100, textAlign:'center', marginTop:'7vh',color:"#ffff4c"}}>Maximize your fitness journey</motion.h1>
 
-    <motion.div style={{display:'flex', flexWrap:'wrap', placeContent:'center', overflowX:'hidden', gap:0}}>
+    <motion.div 
+    initial={{position:'relative',top:200,opacity:0}} 
+    whileInView={{position:'relative', top:0,opacity:1}}
+    transition={{duration:1}}
+    style={{display:'flex', flexWrap:'wrap', placeContent:'center', overflowX:'hidden', gap:0}}>
       <div style={{alignContent:'center', alignItems:'center', overflowX:'hidden'}}>
        <h2 style={{margin:'2vw', textAlign:'center'}}> {check}  Integrated Approach</h2>
        <h2 style={{margin:'2vw', textAlign:'center'}}> {check}  Expert Guidance</h2>
@@ -218,11 +229,13 @@ function App() {
         View Our Service</Link>
       </motion.h1>
         
-      <div style={{alignContent:'center', alignItems:'center',marginLeft:'0vw', overflowX:'hidden'}}>
+      <motion.div
+      
+      style={{alignContent:'center', alignItems:'center',marginLeft:'0vw', overflowX:'hidden'}}>
        <h2 style={{margin:'2vw', textAlign:'center'}}> {check}  Specialized Programs</h2>
        <h2 style={{margin:'2vw', textAlign:'center'}}> {check}  Comfortable Environment</h2>
        <h2 style={{margin:'2vw', textAlign:'center'}}> {check}  State-of-the-Art Facilities</h2>
-      </div>
+      </motion.div>
     </motion.div>
     
     
@@ -234,9 +247,17 @@ function App() {
 
 
 
-<motion.h1 style={{textAlign:'center', fontSize:'4em', fontWeight:100,color:"#ffff4c"}}>Our Classes</motion.h1>
+<motion.h1 
+initial={{position:'relative',top:200,opacity:0}} 
+whileInView={{position:'relative', top:0,opacity:1}}
+transition={{duration:1.5}} 
+style={{textAlign:'center', fontSize:'4em', fontWeight:100,color:"#ffff4c"}}>Our Classes</motion.h1>
 
-    <motion.div style={{display:'flex', flexWrap:'wrap', gap:20,placeContent:'center'}}>
+    <motion.div
+    initial={{position:'relative',opacity:0}} 
+    whileInView={{position:'relative',opacity:1}}
+    transition={{duration:1, delay:0.5}}  
+    style={{display:'flex', flexWrap:'wrap', gap:20,placeContent:'center'}}>
       <Classes sorce={per} class='Personal Training'/>
       <Classes sorce={spin} class='Spin Class'/>
       <Classes sorce={aerob} class='Aerobics Class'/>
@@ -274,7 +295,7 @@ function App() {
    
         <motion.h1 style={{textAlign:'center', fontSize:'4em',fontWeight:100,color:"#ffff4c"}}>Meet Out stuff</motion.h1>
     <motion.div style={{display:'flex', flexWrap:'wrap', gap:20,placeContent:'center'}}>
-      <Stuff sorce={P} name='Name' role='Role' />
+      <Stuff sorce={P} name='Betel' role='Manager' />
       <Stuff sorce={P} name='Name' role='Role' />
       <Stuff sorce={P} name='Name' role='Role' />
     </motion.div>
