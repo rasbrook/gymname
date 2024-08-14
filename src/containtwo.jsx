@@ -2,7 +2,8 @@ import {motion} from 'framer-motion'
 function Trainer(props){
     return(<motion.div style={{display:'flex', flexWrap:'wrap', gap:'5vw', marginTop:'10vh', width:'90vw', marginLeft:'4vw'}}>
 
-        <motion.img 
+        <motion.img
+        loading="lazy" 
         style={{width:'40vw', maxWidth:500, minWidth:370}}
         src={props.sorce}
         ></motion.img>

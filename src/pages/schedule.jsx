@@ -46,25 +46,33 @@ function Schedule(){
 
 
         <motion.div style={{width:'40vw', minWidth:350, placeContent:'center', marginTop:100}}>
-        <motion.img src={spin} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
+        <motion.img
+        loading="lazy" 
+        src={spin} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
         <motion.h1 style={{fontSize:'2.5em', fontWeight:100, textAlign:'center'}}>Spin Class Schedule</motion.h1>   
         </motion.div>
 
 
 
         <motion.div style={{width:'40vw', minWidth:350, marginTop:100}}>
-        <motion.img src={aerob} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
+        <motion.img
+        loading="lazy" 
+        src={aerob} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
         <motion.h1 style={{fontSize:'2.5em', fontWeight:100, textAlign:'center'}}>Aerobics Class Schedule</motion.h1>
         </motion.div>
 
         <motion.div style={{width:'40vw', minWidth:350, marginTop:100}}>
-        <motion.img src={b10} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
+        <motion.img
+        loading="lazy" 
+        src={b10} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
         <motion.h1 style={{fontSize:'2.5em', fontWeight:100, textAlign:'center'}}>Open Gym Schedule</motion.h1>
         </motion.div>
 
 
         <motion.div style={{width:'40vw', minWidth:350, marginTop:100}}>
-        <motion.img src={spa} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
+        <motion.img
+        loading="lazy"
+         src={spa} style={{width:'35vw', minWidth:300, marginLeft:'2.5vw', borderRadius:20}}></motion.img>
         <motion.h1 style={{fontSize:'2.5em', fontWeight:100, textAlign:'center'}}>Spa Schedule</motion.h1>
         </motion.div>
             
