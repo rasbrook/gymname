@@ -168,7 +168,8 @@ d="M10 12C8.34315 12 7 13.3431 7 15C7 16.6569 8.34315 18 10 18C11.6569 18 13 16.
 
 
 <a style={{marginLeft:30, marginRight:30}}
-
+        target="_blank"
+        href='https://t.me/jemogymandspa'
 
 >
 <motion.svg 
@@ -342,7 +343,10 @@ d="M10 12C8.34315 12 7 13.3431 7 15C7 16.6569 8.34315 18 10 18C11.6569 18 13 16.
 </svg>
         </a>
 
-
+        
+<a 
+target="_blank"
+href='https://t.me/jemogymandspa'>
 <svg 
 style={{marginLeft:'10vw'}}
  width="1.2em" height="1.2em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -356,6 +360,8 @@ style={{marginLeft:'10vw'}}
        12.876L3.0633 11.0816ZM8.17695 14.4791L8.78333 16.6015L9.01614 15.321C9.05253 15.1209 9.14908
         14.9366 9.29291 14.7928L11.5128 12.573L8.17695 14.4791Z" fill="#fff"/>
 </svg>
+</a>
+
 </div>
 
 

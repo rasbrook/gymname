@@ -52,7 +52,8 @@ d="M10 12C8.34315 12 7 13.3431 7 15C7 16.6569 8.34315 18 10 18C11.6569 18 13 16.
 
 <a 
 
-href='t.me' 
+target="_blank"
+        href='https://t.me/jemogymandspa' 
 >
 <svg 
 style={{margin:'1em'}}
